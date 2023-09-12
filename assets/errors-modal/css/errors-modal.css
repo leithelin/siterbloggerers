@@ -1,0 +1,63 @@
+    .errors_modal
+{
+    position: fixed;
+    width: 360px;
+    max-height: 85vh;
+    overflow-y: auto;
+    top: 5%;
+    left: 50%;
+    margin: 0 0 0 -180px;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 4px;
+    border: solid 1px #e8e8e8;
+    background: #FFFFF0;
+    color: black;
+    z-index: 50000;
+}
+
+.errors_modal h1
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.errors_modal h2
+{
+    padding-top: 0.6rem;
+    font-size: 16px;
+    color: black;
+}
+
+.errors_modal p
+{
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    font-size: 16px;
+}
+
+.errors_modal button
+{
+    margin-top: 20px;
+    position: relative;
+    outline: none;
+    border: none;
+    background: #1b69bf;
+    color: white;
+    padding: 15px;
+    overflow: hidden;
+    display: inline-block;
+    min-height: 50px;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: 700;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.57),inset 0 2px 0 0 rgba(255,255,255,0.3);
+    -webkit-box-shadow: 0 4px 8px 0 rgb(0 0 0 / 57%), inset 0 2px 0 0 rgb(255 255 255 / 30%);
+    cursor: pointer;
+}
+
+.errors_modal_hidden {
+    display: none !important;
+    visibility: hidden !important;
+}
